@@ -1,11 +1,13 @@
 import random
+#Функция очищения списка от повторений
 def Unique(ListForClear):
     ClearList = []
     for i in ListForClear:
         if i not in ClearList:
             ClearList.append(i)
     return ClearList
-
+    
+#Функция для превращения списка в строчное значение для эстетичности
 def Extract(ListForExtract):
     ExtractedListStr = ''
     for i in ListForExtract:
